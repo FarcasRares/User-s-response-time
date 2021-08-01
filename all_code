@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-
+//JFrame class
 class myFrame extends JFrame{
 	myCanvas c;
 	JFrame f;
@@ -92,7 +92,6 @@ class myFrame extends JFrame{
 		butonB.setVisible(false);
 		butonR.setVisible(false);
 		
-		
 		JButton restart=new JButton("RESTART");
 		restart.setFont(new Font("Arial",Font.PLAIN, 14));
 		restart.addActionListener(new ActionListener() {
@@ -138,7 +137,7 @@ class myFrame extends JFrame{
 	
 }
 
-
+// Canvas class
 class myCanvas extends Canvas{
 	Color r=new Color(255,0,0);
 	Color b=new Color(0,0,0);
@@ -159,12 +158,9 @@ class myCanvas extends Canvas{
 
 
 
-
+// Main class
 public class main{
-
 	public static void main(String[] args) {
 		myFrame aplication=new myFrame("User's response time");
-
 	}
-
 }
