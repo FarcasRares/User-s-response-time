@@ -13,3 +13,4 @@ At the end of the game, the app will display the number of correct answers and t
 <br></br>
 <img src="https://github.com/FarcasRares/User-s-response-time/blob/main/Images/end.png">
 <br></br>
+
